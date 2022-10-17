@@ -15,7 +15,7 @@ const Login = () => {
 
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      navigate("/")
+      navigate("/chat-room/")
     } catch (err) {
       setErr(true);
     }
@@ -31,7 +31,7 @@ const Login = () => {
           <button>Sign in</button>
           {err && <span>Something went wrong</span>}
         </form>
-        <p><Link to="/register">Register</Link></p>
+        <p><Link to="/chat-room/register">Register</Link></p>
       </div>
     </div>
   );

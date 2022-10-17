@@ -79,7 +79,7 @@ const Register = () => {
           {err && <span>Something went wrong</span>}
         </form>
         <p>
-          <Link to="/login">Login</Link>
+          <Link to="/chat-room/login">Login</Link>
         </p>
       </div>
     </div>

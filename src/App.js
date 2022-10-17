@@ -32,8 +32,8 @@ function App() {
               </ProtectedRoute>
             }
           />
-          <Route path="login" element={<Login />} />
-          <Route path="register" element={<Register />} />
+          <Route path="/chat-room/login" element={<Login />} />
+          <Route path="/chat-room/register" element={<Register />} />
         </Route>
       </Routes>
     </BrowserRouter>
