@@ -19,7 +19,7 @@ const Sidebar = () => {
       <span className="warning" onMouseOver={handleMsg} onMouseOut={handleMsg}>!</span>
       {
         showMsg &&
-        <p className="msg">Buscame como YONATANDEV y dejame un msg!!!</p>
+        <p className="msg">Buscame como "yonatandev" y dejame un msg!!!</p>
       }
     </div>
   );
